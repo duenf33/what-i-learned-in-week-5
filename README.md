@@ -11,8 +11,8 @@ array.map(function(currentValue, index, arr), thisValue)
 ```
 * Parameter Values<br>
   
-|              **Parameter**           |                         **Description**                                                 |
-|--------------------------------------|-----------------------------------------------------------------------------------------|
+|              **Parameter**           |     **Description**        |                                                            |
+| ------------------------------------ | -------------------------- | ---------------------------------------------------------- |
 |  function(currentValue, index, arr)  |  Required. A function to be run for each element in the array.                          |
 |                                      |         **Argument**       |       **Description**                                      |
 |                                      |  currentValue              |  Required. The value of the current element                |
