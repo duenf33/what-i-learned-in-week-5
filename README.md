@@ -10,8 +10,16 @@ The `map()` method will create a new *array*, however, it will process a functio
 array.map(function(currentValue, index, arr), thisValue)
 ```
 * Parameter Values<br>
+|     |     |     |
+| --- | --- | --- |
+|     |     |     |
+
+
+
+
 | Parameter | Description |
-| :--- | ---: |
+|----|----|
+|   |   |
 function(currentValue, index, arr) 	Required. A function to be run for each element in the array.
 Function arguments:
 Argument 	Description
