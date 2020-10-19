@@ -118,25 +118,47 @@ let user = {};  // "object literal" syntax
 
 ...as where we would be able to store any lists of properties in the future as a `key: value` pair. Where `key` also known as`property name` is a string and `value` could be anything.<br>
 
+Objects are variables too. But objects can contain many values.<br> 
+
 In JavaScript everything, except primitive values, are objects ⇲<br>
 
->* **`Booleans`**  can be objects (if defined with the new keyword)<br>
->* **`Numbers`** can be objects (if defined with the new keyword)<br>
->* **`Strings`** can be objects (if defined with the new keyword)<br>
->* **`Dates`** are always objects<br>
->* **`Maths`** are always objects<br> 
->* **`Regular expressions`** are always objects<br>
->* **`Arrays`** are always objects<br>
->* **`Functions`** are always objects<br>
->* **`Objects`** are always objects<br>
+>* **`Booleans`**  can be objects (if defined with the new keyword)
+>* **`Numbers`** can be objects (if defined with the new keyword)
+>* **`Strings`** can be objects (if defined with the new keyword)
+>* **`Dates`** are always objects
+>* **`Maths`** are always objects 
+>* **`Regular expressions`** are always objects
+>* **`Arrays`** are always objects
+>* **`Functions`** are always objects
+>* **`Objects`** are always objects
 
-JavaScript defines 5 types of primitive data types ⇲
+JavaScript defines 5 types of primitive data types ⇲<br>
+|Value|	Type|	Comment|
+| --- | --- | --- |
+|"Hello"|	`string`|	"Hello" is always "Hello"|
+|3.14	|`number`	|3.14 is always 3.14|
+|true	|`boolean`	|true is always true|
+|false|	`boolean`|	false is always false|
+|null	|`null` (object)	|null is always null|
+|undefined|	`undefined`|	undefined is always undefined|
 
->* `string`
->* `number`
->* `boolean`
->* `null`
->* `undefined`
+A primitive value has no properties or methods and they are also `immutable`.<br>
 
-A primitive value is a value that has no properties or methods.
-Primitive values are immutable
+## **what is an `immutable` value ?**<br>
+Once an `immutable` value is created, it can never be changed.
+As we stated before primitive values such as numbers, strings and booleans are always immutable.<br>
+
+I found this quote in the web that says:<br>
+> ["A *mutation* is a side effect: the fewer things that change in a program, the less there is to keep track of, which results in a simpler program."](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa#b573)<br>
+###### [how-to-write-links](https://docs.microsoft.com/en-us/contribute/how-to-write-links)<br>
+
+## **`Dot Syntax` or `Square Brackets`** ?
+
+We can add, modify, or access an object property using either dot syntax or square bracket syntax. When using dot syntax, the value after the dot needs to be a valid identifier. When using square brackets, the value in brackets must be a string or evaluate to a string.<br>
+
+Square bracket syntax is necessary if a property name contains spaces or other special characters, or if it consists of a keyword reserved in JavaScript. Otherwise, JavaScript errors will result.<br>
+
+There are couple of more things to note while coding. We have the javascript `Object Literals` which is the `comma separated` list of `name value` pairs wrapped in curly braces.
+<br>
+Not t be confused with ⇲,<br>
+`Template Literals` a string which can contain embedded expressions.<br>
